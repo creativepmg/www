@@ -54,7 +54,7 @@ $( "#volumen" ).slider({
       range: "max",
       min: 0,
       max: 100,
-      value: 100,
+      value: 50,
       slide: function( event, ui ) {
       	sound.volume = ( ui.value/100 );
       	act_volumen = ( ui.value/100 );
