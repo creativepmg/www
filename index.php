@@ -102,7 +102,7 @@ volumen();
 
 <a href="" id="play">Play</a> - <a href="" id="pause">Pause</a>
 
-<!--<div id="titulo">TEMA: <?php echo Title_radio(); ?> </div> -->
+<div id="titulo">TEMA: <?php echo Title_radio(); ?> </div> 
 
 <div id="volumen">volumen</div>
 
