@@ -33,7 +33,7 @@ function playAudio(src) {
     sound.load();
     sound.volume = act_volumen;//100%
     sound.addEventListener('canplay', function() {
-      //sound.play();// Autio Play
+    sound.play();// Autio Play
     });
   }
 
@@ -84,7 +84,7 @@ $( "#volumen" ).slider({
 
 $( document ).ready(function() {
 
-playAudio('http://198.15.95.2:9998/;');
+playAudio('http://198.100.152.234:8016/;');
 volumen();
 
 });
